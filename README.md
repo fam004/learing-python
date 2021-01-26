@@ -16,6 +16,7 @@ Dataquest says this section should take an estimate of 15 hours:
 - Guided Project: Profitable App Profiles for the App Store and Google Play Markets
 
 Python for Data Science: Intermediate
+
 Estimate time 5 hours:
 - Cleaning and Preparing Data
 - Pythong Data Anaylsis Basics
