@@ -27,3 +27,8 @@ Estimate time 5 hours:
 
 - Working with Dates and Times in Python
 - Guided Project: Exploring Hacker New Posts
+
+
+DataQuest estimates this should take 20 hours to finish:
+From Dictionaries and Frequency Tables - Working with Dates and Times in Python
+
