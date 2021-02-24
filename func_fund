@@ -9,3 +9,36 @@ for rating in ratings:
     else:
         content_ratings[rating] = 1
 print(content_ratings)
+
+#6 Extract Files from Columns
+
+My Answer
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+def extract(index_num):
+    content_ratings = []
+    for row in apps_data[1:]:
+        content_rating = row[index_num]
+        content_ratings.append(content_rating)
+    return content_ratings
+    
+genres = extract(11)
+
+DataQuest
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+def extract(index):
+    column = []    
+    for row in apps_data[1:]:
+        value = row[index]
+        column.append(value)    
+    return column
+
+genres = extract(11)
+#Here I needed to align the return with the for loop
+#I should have better naming schemes for my code
