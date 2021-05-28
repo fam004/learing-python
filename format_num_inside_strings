@@ -1,0 +1,19 @@
+#Python Data Analysis Basics
+#8. Formatting Numbers Inside Strings
+# Need to practice the https://docs.python.org/3/library/string.html#formatspec 
+pop_millions = [
+    ["China", 1379.302771],
+    ["India", 1281.935991],
+    ["USA",  326.625791],
+    ["Indonesia",  260.580739],
+    ["Brazil",  207.353391],
+]
+
+template = "The population of {} is {:,.2f} million"
+
+for row in pop_millions:
+    country = row[0]
+    population = row[1]
+    output = template.format(country, population)
+    print(output)
+    
