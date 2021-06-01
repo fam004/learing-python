@@ -1,0 +1,23 @@
+# Object-Oriented Python For Data Science
+# 9. Creating an Append Method
+
+class MyList:
+
+    def __init__(self, initial_data):
+        self.data = initial_data
+        
+    # Add method here
+class MyList:
+
+    def __init__(self, initial_data):
+        self.data = initial_data
+        
+    def append(self, new_item):
+        self.data = self.data + [new_item]
+    
+my_list = MyList([1, 2, 3, 4, 5])
+print(my_list.data)
+
+my_list.append(6)
+
+print(my_list.data)
