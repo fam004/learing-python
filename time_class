@@ -1,0 +1,9 @@
+# Python for Data Science: Intermediate
+# Working with Dates and Times in Python
+# 7. The Time Class
+appt_times = []
+
+for row in potus:
+    date_time = row[2]
+    time_t = date_time.time()
+    appt_times.append(time_t)
