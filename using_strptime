@@ -1,0 +1,10 @@
+# Python for Data Science: Intermediate
+# Working with Dates and Times in Python
+# 5.Using Strptime to Parse Strings as Dates
+
+date_format = "%m/%d/%y %H:%M"
+
+for row in potus:
+    start_date = row[2]
+    start_date = dt.datetime.strptime(start_date, date_format)
+    row[2] = start_date
