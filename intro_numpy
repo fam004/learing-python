@@ -1,0 +1,4 @@
+# Review the "learn" section for an example of how to use the ndarray.shape attribute.
+# 5. Array Shapes
+taxi_shape = taxi.shape
+print(taxi_shape)
