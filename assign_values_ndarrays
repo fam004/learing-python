@@ -1,0 +1,12 @@
+# Boolean Indexing with NumPy
+# 6.Assigning Values in ndarrays
+
+# this creates a copy of our taxi ndarray
+taxi_modified = taxi.copy()
+
+taxi_modified[1066,5] = 1
+#taxi_modified[row, col]
+taxi_modified[:,0] = 16
+# taxi_modified[first col]
+taxi_modified[550:552,7] = taxi_modified[:,7].mean()
+# taxi_modified[rows index 550 and 551] = taxi_modified[:,col index].mean()
